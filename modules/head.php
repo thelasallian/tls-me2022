@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Make-up Elections 2022 | The LaSallian</title><title>Bootstrap demo</title>
+    <title>Make-up Elections 2022 | The LaSallian</title>
 
     <!-- Favicons -->
     <link rel="icon" href="https://thelasallian.com/wp-content/uploads/2020/06/LOGO.png" sizes="32x32" />
