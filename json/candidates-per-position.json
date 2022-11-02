@@ -1,0 +1,164 @@
+[
+    {
+        "position": "OPRES",
+        "candidates": [
+            {
+                "surname": "Brotonel",
+                "first-name": "Axel",
+                "party": "Tapat",
+                "portrait": ""
+            },
+            {
+                "surname": "Paras",
+                "first-name": "Jasmine",
+                "party": "Abante",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "OVPEA",
+        "candidates": [
+            {
+                "surname": "Ajesta",
+                "first-name": "Arvin",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "OVPIA",
+        "candidates": [
+            {
+                "surname": "Siy",
+                "first-name": "Janine",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "OSEC",
+        "candidates": [
+            {
+                "surname": "San Juan",
+                "first-name": "Marco",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "OTREAS",
+        "candidates": [
+            {
+                "surname": "Gernandiso",
+                "first-name": "Cid",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "CLA CP",
+        "candidates": [
+            {
+                "surname": "Ilagan",
+                "first-name": "Yanna",
+                "party": "Tapat",
+                "portrait": ""
+            },
+            {
+                "surname": "Francisco",
+                "first-name": "Ashley",
+                "party": "Tindig CLA",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "RVRCOB CP",
+        "candidates": [
+            {
+                "surname": "Rebong",
+                "first-name": "Juliana",
+                "party": "Tapat",
+                "portrait": ""
+            },
+            {
+                "surname": "Chua",
+                "first-name": "Tiffany Mae",
+                "party": "Angat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "SOE CP",
+        "candidates": [
+            {
+                "surname": "Morada",
+                "first-name": "Lauren",
+                "party": "Tapat",
+                "portrait": ""
+            },
+            {
+                "surname": "Prado",
+                "first-name": "Hannah",
+                "party": "Pulso",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "GCOE CP",
+        "candidates": [
+            {
+                "surname": "Lucena",
+                "first-name": "Roxy",
+                "party": "Tapat",
+                "portrait": ""
+            },
+            {
+                "surname": "Sy",
+                "first-name": "Rannah",
+                "party": "LEAD",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "BAGCED CP",
+        "candidates": [
+            {
+                "surname": "Astillo",
+                "first-name": "Clouie",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "COS CP",
+        "candidates": [
+            {
+                "surname": "Perez",
+                "first-name": "Tracy",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    },
+    {
+        "position": "LCSG CP",
+        "candidates": [
+            {
+                "surname": "Lopez",
+                "first-name": "Angel",
+                "party": "Tapat",
+                "portrait": ""
+            }
+        ]
+    }
+]
