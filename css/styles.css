@@ -1,3 +1,91 @@
-section {
-    border: 1px dashed black;
+/* CSS Variables */
+:root {
+    /* Shades of TLS Green (Lightest to Darkest) */
+    --green-0: #F5F8F3;
+    --green-1: #D8E8CA;
+    --green-2: #7BA877;
+    --green-3: #325932;
+    --green-4: #1A321D;
+
+    /* Drop Shadow */
+    --drop-shadow: 0px 5px 25px rgba(95, 152, 94, 0.1);
 }
+
+/* Webpage Body */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--green-0);
+}
+
+/* Temporary Styles */
+/* section {
+    border: 1px dashed black;
+} */
+
+/* Header */
+
+
+
+/* Common Styles Everywhere */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0; /* Reset margin for headings and paragraphs */
+}
+
+/* Common Styles for Sections */
+section {
+    background-color: white;
+    box-shadow: var(--drop-shadow);
+
+    border-radius: 0.5rem;
+    overflow: hidden; /* So border-radius applies to header */
+}
+
+.section-header, .section-body {
+    padding: 1rem;
+}
+
+.section-header {
+    /* Flex Styles */
+    display: flex;
+    align-items: center;
+
+    background-color: var(--green-1);
+}
+
+.section-header > img.section-header-icon {
+    margin-right: 1.5rem;
+    height: 2.5rem;
+}
+
+.section-header > h1.section-header-text {
+    font-family: 'Lexend';
+    font-weight: 600; /* Semibold */
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: var(--green-3);
+}
+
+
+/* Vox Populi */
+
+
+
+/* Head-to-Head */
+
+
+
+/* Fast Talk: Yes or No */
+
+
+
+/* Fast Talk: 0.0 to 4.0 */
+
+
+
+/* Features */
+
+
+
+/* Footer */
+
+
