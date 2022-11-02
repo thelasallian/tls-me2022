@@ -1,3 +1,12 @@
+:root {
+    /* Shades of TLS Green (Lightest to Darkest) */
+    --green-0: #F5F8F3;
+    --green-1: #D8E8CA;
+    --green-2: #7BA877;
+    --green-3: #325932;
+    --green-4: #1A321D;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
 }
