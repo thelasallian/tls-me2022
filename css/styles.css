@@ -1,3 +1,4 @@
+/* CSS Variables */
 :root {
     /* Shades of TLS Green (Lightest to Darkest) */
     --green-0: #F5F8F3;
@@ -7,10 +8,41 @@
     --green-4: #1A321D;
 }
 
+/* Webpage Body */
 body {
     font-family: 'Fira Sans', sans-serif;
+    background-color: var(--green-0);
 }
 
+/* Temporary Styles */
 section {
-    border: 1px dashed black; /* TEMPORARY */
+    border: 1px dashed black;
 }
+
+/* Header */
+
+
+
+/* Vox Populi */
+
+
+
+/* Head-to-Head */
+
+
+
+/* Fast Talk: Yes or No */
+
+
+
+/* Fast Talk: 0.0 to 4.0 */
+
+
+
+/* Features */
+
+
+
+/* Footer */
+
+
