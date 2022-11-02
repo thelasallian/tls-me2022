@@ -4,17 +4,17 @@
 <body>
     <main class="container">
         <!-- 
-            - row-cols-md-2:  On the md breakpoint, there are 2 columns, except Vox Populi.
+            - row-cols-lg-2:  On the md breakpoint, there are 2 columns, except Vox Populi.
             - row-cols-1:     When it gets smaller, it becomes 1 column.
             - g-4:            Adds the gutter (gap) between columns.
          -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
             <!-- 
                 Column wrapping Vox Populi
                 col-md-12:          On the md breakpoint, only Vox Populi spans two columns 
                 order-5 order-md-1: On the md breakpoint, Vox Populi appears on top. But in mobile, it's last
             -->
-            <div class="col-md-12 order-5 order-md-1">
+            <div class="col-lg-12 order-5 order-lg-1">
                 <!-- Vox Populi -->
                 <section id="vox-populi">
                     <?php require_once 'modules/vox-populi.php'; ?>
