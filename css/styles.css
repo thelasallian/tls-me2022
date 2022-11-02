@@ -23,6 +23,30 @@ section {
 
 
 
+/* Common Styles for Sections */
+.section-header {
+    /* Flex Styles */
+    display: flex;
+    align-items: center;
+
+    padding: 1rem;
+    background-color: var(--green-1);
+}
+
+.section-header > img.section-header-icon {
+    margin-right: 1.5rem;
+    height: 2.5rem;
+}
+
+.section-header > h1.section-header-text {
+    font-family: 'Lexend';
+    font-weight: 600; /* Semibold */
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: var(--green-3);
+}
+
+
 /* Vox Populi */
 
 
