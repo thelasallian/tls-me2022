@@ -6,6 +6,9 @@
     --green-2: #7BA877;
     --green-3: #325932;
     --green-4: #1A321D;
+
+    /* Drop Shadow */
+    --drop-shadow: 0px 5px 25px rgba(95, 152, 94, 0.1);
 }
 
 /* Webpage Body */
@@ -31,6 +34,10 @@ h1, h2, h3, h4, h5, h6, p {
 /* Common Styles for Sections */
 section {
     background-color: white;
+    box-shadow: var(--drop-shadow);
+
+    border-radius: 0.5rem;
+    overflow: hidden; /* So border-radius applies to header */
 }
 
 .section-header, .section-body {
