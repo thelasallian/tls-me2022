@@ -33,12 +33,15 @@ section {
     background-color: white;
 }
 
+.section-header, .section-body {
+    padding: 1rem;
+}
+
 .section-header {
     /* Flex Styles */
     display: flex;
     align-items: center;
 
-    padding: 1rem;
     background-color: var(--green-1);
 }
 
