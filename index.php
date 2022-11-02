@@ -18,7 +18,7 @@
                 <!-- Vox Populi -->
                 <section id="vox-populi">
                     Vox Populi
-
+                    <?php require_once 'modules/vox-populi.php'; ?>
                 </section>
             </div>
             <!-- Column wrapping HTH and FT: 0.0 to 4.0 -->
@@ -26,12 +26,12 @@
                 <!-- Head to Head -->
                 <section id="head-to-head" class="mb-4">
                     Head-to-Head
-
+                    <?php require_once 'modules/head-to-head.php'; ?>
                 </section>
                 <!-- Fast Talk: 0.0 to 4.0 -->
                 <section id="ft-rate">
                     Fast Talk: 0.0 to 4.0
-
+                    <?php require_once 'modules/ft-rate.php'; ?>
                 </section>
             </div>
             <!-- Column wrapping FT: Yes or No and Features -->
@@ -39,12 +39,12 @@
                 <!-- Fast Talk: Yes or No -->
                 <section id="ft-yes-or-no" class="mb-4">
                     Fast Talk: Yes or No
-                
+                    <?php require_once 'modules/ft-yes-or-no.php'; ?>
                 </section>
                 <!-- Features -->
                 <section id="features">
                     Features
-
+                    <?php require_once 'modules/features.php'; ?>
                 </section>
             </div>
         </div>
