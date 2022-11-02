@@ -10,22 +10,21 @@
          -->
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <!-- 
+                Column wrapping Vox Populi
                 col-md-12:          On the md breakpoint, only Vox Populi spans two columns 
                 order-5 order-md-1: On the md breakpoint, Vox Populi appears on top. But in mobile, it's last
             -->
             <div class="col-md-12 order-5 order-md-1">
                 <section id="vox-populi">Vox Populi</section>
             </div>
+            <!-- Column wrapping HTH and FT: 0.0 to 4.0 -->
             <div class="col order-1">
-                <section id="head-to-head">Head-to-Head</section>
-            </div>
-            <div class="col order-2">
-                <section id="ft-yes-or-no">Fast Talk: Yes or No</section>
-            </div>
-            <div class="col order-3">
+                <section id="head-to-head" class="mb-4">Head-to-Head</section>
                 <section id="ft-rate">Fast Talk: 0.0 to 4.0</section>
             </div>
-            <div class="col order-4">
+            <!-- Column wrapping FT: Yes or No and Features -->
+            <div class="col order-2">
+                <section id="ft-yes-or-no" class="mb-4">Fast Talk: Yes or No</section>
                 <section id="features">Features</section>
             </div>
         </div>
