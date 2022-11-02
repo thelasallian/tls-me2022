@@ -17,7 +17,6 @@
             <div class="col-md-12 order-5 order-md-1">
                 <!-- Vox Populi -->
                 <section id="vox-populi">
-                    Vox Populi
                     <?php require_once 'modules/vox-populi.php'; ?>
                 </section>
             </div>
@@ -25,12 +24,10 @@
             <div class="col order-1">
                 <!-- Head to Head -->
                 <section id="head-to-head" class="mb-4">
-                    Head-to-Head
                     <?php require_once 'modules/head-to-head.php'; ?>
                 </section>
                 <!-- Fast Talk: 0.0 to 4.0 -->
                 <section id="ft-rate">
-                    Fast Talk: 0.0 to 4.0
                     <?php require_once 'modules/ft-rate.php'; ?>
                 </section>
             </div>
@@ -38,12 +35,10 @@
             <div class="col order-2">
                 <!-- Fast Talk: Yes or No -->
                 <section id="ft-yes-or-no" class="mb-4">
-                    Fast Talk: Yes or No
                     <?php require_once 'modules/ft-yes-or-no.php'; ?>
                 </section>
                 <!-- Features -->
                 <section id="features">
-                    Features
                     <?php require_once 'modules/features.php'; ?>
                 </section>
             </div>
