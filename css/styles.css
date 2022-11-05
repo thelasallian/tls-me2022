@@ -40,6 +40,19 @@ section {
     overflow: hidden; /* So border-radius applies to header */
 }
 
+.position-label {
+    display: block;
+    border-radius: .2rem;
+    width: fit-content;
+    padding: 0 .4rem 0;
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: .8em;
+    color: var(--green-3);
+    background-color: var(--green-1);
+    margin-bottom: 0.75em;
+}
+
 .section-header, .section-body {
     padding: 1rem;
 }
@@ -75,6 +88,26 @@ section {
 
 
 /* Fast Talk: Yes or No */
+
+.ft-cand-info p {
+    font-size: 1em;
+    font-family: 'Fira Sans Extra Condensed';
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.ft-cand-name {
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.ft-cand-portrait {
+    width: 1.85rem;
+    height: 1.85rem;
+    background-color: black;
+    border-radius: 100%;
+}
 
 
 
