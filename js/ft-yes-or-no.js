@@ -15,9 +15,9 @@ $("#issues-dropdown").on('change', function() {
     var selected_option = $("#issues-dropdown").val();
     
     // Trigger animation
-    $("li").addClass("animate__animated animate__flip");
+    $(".ft-cand-portrait").addClass("animate__animated animate__flip");
     setTimeout(function(){
-        $('li').removeClass('animate__animated animate__flip');
+        $('.ft-cand-portrait').removeClass('animate__animated animate__flip');
     },1000);
     $("#current-selection").text(selected_option);
 
@@ -28,13 +28,13 @@ $("#issues-dropdown").on('change', function() {
         surname_id = surname_id.replaceAll(' ', '-');
 
         // Reset red/green colors
-        $("#" + surname_id).removeClass("text-success text-danger");
+        $("#" + surname_id).removeClass("bg-success bg-danger");
         
         // Re-add red/green color based on Yes or No answer
         if (value[selected_option] == "Y") {
-            $("#" + surname_id).addClass("text-success");
+            $("#" + surname_id).addClass("bg-success");
         } else {
-            $("#" + surname_id).addClass("text-danger");
+            $("#" + surname_id).addClass("bg-danger");
         }
     })
 });
