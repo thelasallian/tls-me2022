@@ -68,9 +68,13 @@
 
     <?php
     function render_cand_info($cand) {
+        // Replace spaces in surname with dashes, if any
+        $candidate_id = $cand["surname"];
+        $candidate_id = str_replace(" ", "-", $candidate_id);
+
         echo <<<INFO
             <div class="ft-cand-info d-flex align-items-center">
-                <img class="ft-cand-portrait me-2" src="" alt=""  />
+                <img class="ft-cand-portrait me-2" id="{$candidate_id}" src="" alt=""  />
                 <p>
                     <span class="ft-cand-name">{$cand["surname"]}</span><br/>
                     <span class="ft-cand-party">{$cand["party"]}</span>
