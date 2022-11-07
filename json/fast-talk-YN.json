@@ -1,0 +1,172 @@
+[
+    {
+      "surname": "Brotonel",
+      "ilw": "Y",
+      "masks": "N",
+      "sim-card": "Y",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "N",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Paras",
+      "ilw": "Y",
+      "masks": "Y",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "N",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Ajesta",
+      "ilw": "N",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "Y",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Siy",
+      "ilw": "Y",
+      "masks": "Y",
+      "sim-card": "Y",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "N",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "San Juan",
+      "ilw": "N",
+      "masks": "Y",
+      "sim-card": "Y",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "N",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Gernandiso",
+      "ilw": "N",
+      "masks": "Y",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "Y",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Ilagan",
+      "ilw": "N",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Francisco",
+      "ilw": "Y",
+      "masks": "N",
+      "sim-card": "Y",
+      "rotc": "Y",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Astillo",
+      "ilw": "N",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "N",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Rebong",
+      "ilw": "N",
+      "masks": "Y",
+      "sim-card": "Y",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "N",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Chua",
+      "ilw": "Y",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "N",
+      "state-calamity": "Y",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Morada",
+      "ilw": "Y",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Prado",
+      "ilw": "Y",
+      "masks": "Y",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Lucena",
+      "ilw": "Y",
+      "masks": "N",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "N",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Sy",
+      "ilw": "N",
+      "masks": "Y",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "Y"
+    },
+    {
+      "surname": "Perez",
+      "ilw": "Y",
+      "masks": "Y",
+      "sim-card": "N",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "N"
+    },
+    {
+      "surname": "Lopez",
+      "ilw": "Y",
+      "masks": "Y",
+      "sim-card": "Y",
+      "rotc": "N",
+      "no-fail": "Y",
+      "state-calamity": "Y",
+      "face-to-face": "N"
+    }
+  ]
