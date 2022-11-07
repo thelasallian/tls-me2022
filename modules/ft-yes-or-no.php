@@ -10,6 +10,18 @@
     $candidates_list_data = json_decode(file_get_contents('./json/candidates-per-position.json'), true);
     ?>
 
+    <!-- Dropdown -->
+    <select class="form-select" aria-label="List of Issues" id="issues-dropdown">
+        <option value="default" disabled selected hidden>Select an Issue...</option>
+        <option value="ilw">Independent Learning Week</option>
+        <option value="masks">Voluntary Wearing of Face Masks</option>
+        <option value="sim-card">SIM Card Registration</option>
+        <option value="rotc">Mandatory ROTC</option>
+        <option value="no-fail">No-Fail Policy for F2F Classes</option>
+        <option value="state-calamity">National State of Calamity Declaration</option>
+        <option value="face-to-face">Full F2F Setup</option>
+    </select>
+
     <!-- Display Candidates -->
     <div class="row row-cols-1 row-cols-md-2 g-0 px-4 px-md-0">
         <!-- Column 1: OPRES to RVRCOB CP -->
