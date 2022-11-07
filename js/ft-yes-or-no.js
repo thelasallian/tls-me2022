@@ -1,11 +1,11 @@
-// Import candidates JSON data into variable
-var candidates = {};
+// Get JSON data and it as an associative array into a variable
+var yes_no_data = {};
 $.ajax({
     url: "./json/fast-talk-YN.json",
     async: false,
     dataType: 'json',
     success: function (data) {
-        candidates = data.candidates;
+        yes_no_data = data;
     }
 });
 
