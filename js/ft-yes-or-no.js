@@ -31,9 +31,9 @@ $("#issues-dropdown").on('change', function() {
         $("#" + surname_id).removeClass("bg-success bg-danger");
         
         // Re-add red/green color based on Yes or No answer
-        if (value[selected_option] == "Y") {
+        if (value[selected_option] == "Yes") {
             $("#" + surname_id).addClass("bg-success");
-        } else {
+        } else if (value[selected_option] == "No") {
             $("#" + surname_id).addClass("bg-danger");
         }
     })
