@@ -89,6 +89,18 @@ section {
 
 /* Fast Talk: Yes or No */
 
+#issues-dropdown {
+    margin: 0 auto 2rem;
+    width: fit-content;
+    color: var(--green-3);
+    border: 1px solid var(--green-3);
+    border-radius: 10rem;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .ft-cand-info p {
     font-size: 1em;
     font-family: 'Fira Sans Extra Condensed';
