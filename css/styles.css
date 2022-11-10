@@ -90,7 +90,7 @@ section {
 /* Fast Talk: Yes or No */
 
 #issues-dropdown {
-    margin: 0 auto 2rem;
+    margin: 0 auto 1rem;
     width: fit-content;
     color: var(--green-3);
     border: 1px solid var(--green-3);
@@ -99,6 +99,26 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+}
+
+.ft-legend {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 1.5rem;
+    width: fit-content;
+    text-transform: uppercase;
+    color: var(--green-3);
+    font-family: 'Fira Sans Condensed';
+}
+
+.ft-legend-label {
+    margin-right: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ft-legend-item > img {
+    margin-right: 5em;
 }
 
 .ft-cand-info p {
