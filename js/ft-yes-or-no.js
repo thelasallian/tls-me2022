@@ -28,13 +28,13 @@ $("#issues-dropdown").on('change', function() {
         surname_id = surname_id.replaceAll(' ', '-');
 
         // Reset red/green colors
-        $("#" + surname_id).removeClass("bg-success bg-danger");
+        $("#" + surname_id).removeClass("ft-cand-yes ft-cand-no");
         
         // Re-add red/green color based on Yes or No answer
         if (value[selected_option] == "Yes") {
-            $("#" + surname_id).addClass("bg-success");
+            $("#" + surname_id).addClass("ft-cand-yes");
         } else if (value[selected_option] == "No") {
-            $("#" + surname_id).addClass("bg-danger");
+            $("#" + surname_id).addClass("ft-cand-no");
         }
     })
 });
