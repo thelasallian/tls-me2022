@@ -22,6 +22,19 @@
         <option value="face-to-face">Full F2F Setup</option>
     </select>
 
+    <!-- Legend -->
+    <div class="ft-legend">
+        <span class="ft-legend-label">Legend:</span>
+        <div class="ft-legend-item me-3">
+            <img class="ft-cand-portrait ft-cand-yes me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+            Yes
+        </div>
+        <div class="ft-legend-item">
+            <img class="ft-cand-portrait ft-cand-no me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+            No
+        </div>
+    </div>
+
     <!-- Display Candidates -->
     <div class="row row-cols-1 row-cols-md-2 g-0 px-4 px-md-0">
         <!-- Column 1: OPRES to RVRCOB CP -->
@@ -78,6 +91,8 @@
         
     </div>
 
+    
+    
     <?php
     function render_cand_info($cand) {
         // Replace spaces in surname with dashes, if any
