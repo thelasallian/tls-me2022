@@ -15,9 +15,9 @@ $("#issues-dropdown").on('change', function() {
     var selected_option = $("#issues-dropdown").val();
     
     // Trigger animation
-    $(".ft-cand-portrait").addClass("animate__animated animate__heartBeat");
+    $(".ft-cand-portrait").addClass("flip-vertical-right");
     setTimeout(function(){
-        $('.ft-cand-portrait').removeClass('animate__animated animate__heartBeat');
+        $('.ft-cand-portrait').removeClass('flip-vertical-right');
     },1000);
     $("#current-selection").text(selected_option);
 
