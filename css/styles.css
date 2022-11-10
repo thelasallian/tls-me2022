@@ -103,10 +103,11 @@ section {
 }
 
 .ft-cand-portrait {
-    width: 1.85rem;
-    height: 1.85rem;
+    width: 2.25rem;
+    height: 2.25rem;
     background-color: black;
     border-radius: 100%;
+    border: 3px solid gray;
 }
 
 
