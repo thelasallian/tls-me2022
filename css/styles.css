@@ -111,6 +111,15 @@ section {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
+.ft-cand-yes {
+    border-color: #46AC40;
+    box-shadow: 0px 3px 10px rgba(46, 183, 84, 0.4);
+}
+
+.ft-cand-no {
+    border-color: #DB2424;
+    box-shadow: 0px 3px 10px rgba(183, 46, 46, 0.4);
+}
 
 
 /* Fast Talk: 0.0 to 4.0 */
