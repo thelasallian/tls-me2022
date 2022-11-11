@@ -84,7 +84,6 @@ section {
 .vp-wrapper {
     overflow-x: scroll;
     width: 100%;
-    white-space: nowrap;
 }
 
 .vp-photo-wrapper {
