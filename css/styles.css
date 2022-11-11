@@ -22,6 +22,20 @@ body {
     border: 1px dashed black;
 } */
 
+/* Navbar */
+nav {
+    background: #335934;
+}
+
+a.nav-link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fira Sans' sans-serif;
+    font-weight: 500;
+    font-size: 16;
+}
+
 /* Header */
 
 
