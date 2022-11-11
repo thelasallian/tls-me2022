@@ -81,6 +81,76 @@ section {
 
 /* Vox Populi */
 
+#vp-section-body {
+    padding: 1rem 0.3rem;
+}
+
+.vp-wrapper {
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.vp-photo-wrapper {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.vp-photo-wrapper:hover .vp-photo-overlay {
+    opacity: 1;
+}
+
+.vp-photo-overlay {
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 89, 50, 0.79);
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    color: white;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.vp-photo-overlay .vp-answer {
+    font-size: 1.5em;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 600;
+}
+
+.vp-photo-overlay .material-icons {
+    font-size: 2.25em;
+}
+
+.vp-photo-overlay .vp-name {
+    font-weight: bold;
+}
+
+.vp-photo {
+    height: 25rem;
+}
+
+.vp-button-wrapper button {
+    font-size: 2em;
+    color: var(--green-3);
+    width: fit-content;
+    background: none;
+    border: none;
+}
+
+/* Hide buttons in mobile */
+@media (max-width: 767px) {
+    .vp-button-wrapper {
+        display: none !important;
+    }
+  }
+
 
 
 /* Head-to-Head */
