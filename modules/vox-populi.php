@@ -4,6 +4,11 @@
 </div>
 
 <div class="section-body">
+    <!-- Fetch Data -->
+    <?php
+    // Convert JSON to associative array (true parameter)
+    $vp_photos = json_decode(file_get_contents('./json/vox-populi.json'), true);
+    ?>
     <div class="vp-wrapper">
         
     </div>
