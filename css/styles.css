@@ -142,23 +142,18 @@ body {
 }
 
 @media screen and (min-width: 1441px){
-    .header-container #banner {
-        left: 58.2%;
-        transform: translateX(-42.8%);
+    .header-container {
+        width: 90em;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
     }
-    
+
     .header-container #content {
         width: fit-content;
         position: relative;
         top: -87.5vh;
-        left: 22.7%;
-        transform: translateX(-78.3%);
     }
-}
-
-@font-face {
-    font-family: 'MADE Outer Sans';
-    src: url('../assets/MADEOuterSans.otf');
 }
 
 /* Common Styles Everywhere */
