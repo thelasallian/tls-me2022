@@ -154,8 +154,36 @@ section {
 
 
 /* Head-to-Head */
+li.nav-item {
+    border-radius: 10rem;
+    border: 1px solid var(--green-3);
+    margin: 0.5rem;
+}
 
+button.nav-link {
+    width: fit-content;
+    color: var(--green-3) !important;
+    background-color: none;
+    border: 1px solid var(--green-3);
+    border-radius: 10rem;
+    font-family: 'Lexend';
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
 
+button.active {
+    background-color: var(--green-3) !important;
+    width: fit-content;
+    color: white !important;
+    border: 1px solid var(--green-3) !important;
+    border-radius: 10rem !important;
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 /* Fast Talk: Yes or No */
 
