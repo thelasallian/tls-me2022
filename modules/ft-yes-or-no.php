@@ -10,28 +10,34 @@
     $candidates_list_data = json_decode(file_get_contents('./json/candidates-per-position.json'), true);
     ?>
 
-    <!-- Dropdown -->
-    <select class="form-select" aria-label="List of Issues" id="issues-dropdown">
-        <option value="default" disabled selected hidden>Select an Issue...</option>
-        <option value="ilw">Independent Learning Week</option>
-        <option value="masks">Voluntary Wearing of Face Masks</option>
-        <option value="sim-card">SIM Card Registration</option>
-        <option value="rotc">Mandatory ROTC</option>
-        <option value="no-fail">No-Fail Policy for F2F Classes</option>
-        <option value="state-calamity">National State of Calamity Declaration</option>
-        <option value="face-to-face">Full F2F Setup</option>
-    </select>
-
-    <!-- Legend -->
-    <div class="ft-legend">
-        <span class="ft-legend-label">Legend:</span>
-        <div class="ft-legend-item me-3">
-            <img class="ft-cand-portrait ft-cand-yes me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
-            Yes
+    <div class="row row-cols-auto justify-content-center">
+        <div class="col">
+            <!-- Dropdown -->
+            <select class="form-select" aria-label="List of Issues" id="issues-dropdown">
+                <option value="default" disabled selected hidden>Select an Issue...</option>
+                <option value="ilw">Independent Learning Week</option>
+                <option value="masks">Voluntary Wearing of Face Masks</option>
+                <option value="sim-card">SIM Card Registration</option>
+                <option value="rotc">Mandatory ROTC</option>
+                <option value="no-fail">No-Fail Policy for F2F Classes</option>
+                <option value="state-calamity">National State of Calamity Declaration</option>
+                <option value="face-to-face">Full F2F Setup</option>
+            </select>
         </div>
-        <div class="ft-legend-item">
-            <img class="ft-cand-portrait ft-cand-no me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
-            No
+
+        <div class="col">
+            <!-- Legend -->
+            <div class="ft-legend">
+                <!-- <span class="ft-legend-label">Legend:</span> -->
+                <div class="ft-legend-item me-3">
+                    <img class="ft-cand-portrait ft-cand-yes me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                    Yes
+                </div>
+                <div class="ft-legend-item">
+                    <img class="ft-cand-portrait ft-cand-no me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                    No
+                </div>
+            </div>
         </div>
     </div>
 
@@ -42,7 +48,7 @@
 
             <!-- OPRES -->
             <span class="position-label"><?php echo $candidates_list_data[0]["position"]; ?></span>
-            <div class="row g-2 mb-3">
+            <div class="row g-2 mb-4">
                 
                 <?php foreach ($candidates_list_data[0]["candidates"] as $cand): ?>
                     <div class="col">
@@ -54,7 +60,7 @@
 
             <!-- OVPEA to RVRCOB -->
             <?php for ($row = 0; $row < 3; $row++): ?>
-                <div class="row row-cols-2 g-2 mb-3">
+                <div class="row row-cols-2 g-2 mb-4">
                     <?php for ($col = 0; $col < 2; $col++): ?>
                         <div class="col">
                             <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"]; ?></span>
@@ -71,7 +77,7 @@
         <!-- Column 2: SOE CP to COS CP -->
         <div class="col">
             <?php for ($row = 0; $row < 3; $row++): ?>
-                <div class="row row-cols-2 g-2 mb-3">
+                <div class="row row-cols-2 g-2 mb-4">
                     <?php for ($col = 0; $col < 2; $col++): ?>
                         <div class="col">
                             <!-- <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"]; ?></span> -->
