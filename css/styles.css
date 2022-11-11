@@ -144,6 +144,13 @@ section {
     border: none;
 }
 
+/* Hide buttons in mobile */
+@media (max-width: 767px) {
+    .vp-button-wrapper {
+        display: none !important;
+    }
+  }
+
 
 
 /* Head-to-Head */
