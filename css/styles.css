@@ -141,6 +141,26 @@ body {
     }
 }
 
+@media screen and (min-width: 1441px){
+    .header-container #banner {
+        left: 58.2%;
+        transform: translateX(-42.8%);
+    }
+    
+    .header-container #content {
+        width: fit-content;
+        position: relative;
+        top: -87.5vh;
+        left: 22.7%;
+        transform: translateX(-78.3%);
+    }
+}
+
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('../assets/MADEOuterSans.otf');
+}
+
 /* Common Styles Everywhere */
 h1, h2, h3, h4, h5, h6, p {
     margin: 0; /* Reset margin for headings and paragraphs */
