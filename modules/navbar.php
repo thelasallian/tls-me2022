@@ -1,5 +1,5 @@
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light px-2">
+    <div class="container">
         <a class="navbar-brand" href="">
             <img src="assets/tls-wordmark-white.svg" alt="TLS Name Logo">
         </a>
@@ -24,5 +24,5 @@
                 <li><a class="nav-link" href="#features">FEATURES</a></li>
             </ul>
         </div>
-    </nav>
-</div>
+    </div>
+</nav>
