@@ -152,7 +152,7 @@ body {
     .header-container #content {
         width: fit-content;
         position: relative;
-        top: -87.5vh;
+        top: -38.5em;
     }
 }
 
