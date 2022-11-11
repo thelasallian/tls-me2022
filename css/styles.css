@@ -95,7 +95,8 @@ section {
     color: var(--green-3);
     border: 1px solid var(--green-3);
     border-radius: 10rem;
-    font-family: 'Fira Sans Condensed';
+    font-family: 'Fira Sans Extra Condensed';
+    font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -108,7 +109,7 @@ section {
     width: fit-content;
     text-transform: uppercase;
     color: var(--green-3);
-    font-family: 'Fira Sans Condensed';
+    font-family: 'Fira Sans Extra Condensed';
 }
 
 .ft-legend-label {
