@@ -4,6 +4,56 @@
 </div>
 
 <div class="section-body">
+    <!-- Bootstrap Pills: EB / CLA, COB, SOE, GCOE / COS, BAGCED, LCSG -->
+    <ul class="nav nav-pills d-flex justify-content-center mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-eb" data-bs-toggle="pill" data-bs-target="#pills-eb" type="button" role="tab" aria-controls="pills-eb" aria-selected="true">EB</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-cla/cob/soe/gcoe" data-bs-toggle="pill" data-bs-target="#pills-cla/cob/soe/gcoe" type="button" role="tab" aria-controls="pills-cla/cob/soe/gcoe" aria-selected="false">CLA, RVRCOB, SOE, GCOE</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-cos/bagced/lcsg" data-bs-toggle="pill" data-bs-target="#pills-cos/bagced/lcsg" role="tab" aria-controls="pills-cos/bagced/lcsg" aria-selected="false">COS, BAGCED, LCSG</button>
+        </li>
+    </ul>
+
+    <!-- Container for Card Grid -->
+    <div class="tab-content" id="pills-tabContent">
+        <!-- EB -->
+        <div class="tab-pane fade show active" id="pills-eb" role="tabpanel" aria-labelledby="pills-eb-tab">
+            <div class="row row-cols-1 g-2">
+                <!-- PHP Loop to Render EB Cards -->
+                <?php
+                    $eb = json_decode(file_get_contents("json/hth-articles.json"), true);
+
+                    foreach($eb as $item) { // foreach element in $arr
+                        $position = $item['position'];
+                        $title = $item['title'];
+                        $byline = $item['byline'];
+                        $link = $item["link"];
+                    }
+                ?>
+                <div class="col">
+                    <a href="<?php echo $link; ?>" target="_blank">
+                        <div class="card border-0">
+                            <div class="row g-0">
+                                <div class="col-5 col-sm-4 col-lg-5 p-2">
+                                    <img src="<?php echo $visual; ?> alt="" class="card-img">
+                                </div>
+                                <div class="col-7 col-sm-8 col-lg-7 d-flex">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <p class="card-tag"<?php echo $position; ?></p>
+                                        <h5 class="card-title"<?php echo $title; ?></h5>
+                                        <p class="card-text"<?php echo $byline; ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
     <?php
         // Convert JSON to associative array (true parameter)
         $hth_data = json_decode(file_get_contents('./json/hth-articles.json'), true);
@@ -20,4 +70,5 @@
         }
         echo '</ol>';
     ?>
+
 </div>
