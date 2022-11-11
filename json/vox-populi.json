@@ -1,0 +1,56 @@
+[
+    {
+      "filepath": "./assets/vox-populi/vp-1.jpg",
+      "answer": "Leadership skills, problem-solving skills, integrity",
+      "name": "Eloisa Limbago",
+      "id": "ID 124, BSCS"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-2.jpg",
+      "answer": "Initiative and passionate in their duties",
+      "name": "Angelo Guerra",
+      "id": "ID 119, BSOP"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-3.jpg",
+      "answer": "Open to constructive criticism",
+      "name": "Elliamae Ang",
+      "id": "ID, 534, BSTW"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-4.jpg",
+      "answer": "Great work ethics",
+      "name": "Bonky Castaneda",
+      "id": "ID 124, BSCS"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-5.jpg",
+      "answer": "Proper communication",
+      "name": "Ana Mapa",
+      "id": "ID 119, BSOP"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-6.jpg",
+      "answer": "Strategic focus",
+      "name": "Miguel Robles",
+      "id": "ID, 534, BSTW"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-7.jpg",
+      "answer": "Smart worker, consistent, selfless",
+      "name": "Diego Manzano",
+      "id": "ID 124, BSCS"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-8.jpg",
+      "answer": "Present, dependable, team-player",
+      "name": "Angel Prieto",
+      "id": "ID 119, BSOP"
+    },
+    {
+      "filepath": "./assets/vox-populi/vp-9.jpg",
+      "answer": "Accountability",
+      "name": "Bea Cabug",
+      "id": "ID, 534, BSTW"
+    }
+  ]
