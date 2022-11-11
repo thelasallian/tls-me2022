@@ -81,6 +81,13 @@ section {
 
 /* Vox Populi */
 
+.vp-wrapper {
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+
 
 
 /* Head-to-Head */

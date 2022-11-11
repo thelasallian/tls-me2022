@@ -4,5 +4,7 @@
 </div>
 
 <div class="section-body">
-    
+    <div class="vp-wrapper">
+        
+    </div>
 </div>
