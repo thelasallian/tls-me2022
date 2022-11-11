@@ -81,6 +81,10 @@ section {
 
 /* Vox Populi */
 
+#vp-section-body {
+    padding: 0;
+}
+
 .vp-wrapper {
     overflow-x: scroll;
     width: 100%;
@@ -96,6 +100,10 @@ section {
     overflow: hidden;
 }
 
+.vp-photo-wrapper:hover .vp-photo-overlay {
+    opacity: 1;
+}
+
 .vp-photo-overlay {
     padding: 2rem;
     position: absolute;
@@ -106,6 +114,8 @@ section {
     height: 100%;
     white-space: normal;
     color: white;
+    opacity: 0;
+    transition: 0.25s;
 }
 
 .vp-photo-overlay .vp-answer {
@@ -124,6 +134,14 @@ section {
 
 .vp-photo {
     height: 25rem;
+}
+
+.vp-button-wrapper button {
+    font-size: 2em;
+    color: var(--green-3);
+    width: fit-content;
+    background: none;
+    border: none;
 }
 
 
