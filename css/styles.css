@@ -39,6 +39,8 @@ body {
     position: absolute;
     font-family: 'Fira Sans Condensed';
     color: #335932;
+    top: 0;
+    left: 0;
     padding-left: 3.6875em;
     padding-top: 4em;
 }
@@ -63,7 +65,7 @@ body {
 }
 
 #content p {
-    font-size: 0.9375;
+    font-size: 0.9375em;
     line-height: 2em;
 }
 
