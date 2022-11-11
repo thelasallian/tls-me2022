@@ -127,7 +127,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 27.375rem;
+    min-height: 27.375rem;
+    max-width: 100%;
     margin-top: 1.875em;
 }
 
@@ -140,19 +141,21 @@ section {
 .footer .assets {
     justify-content: center;
     align-items: center;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .footer .assets img {
     margin: 0.5rem;
+    object-fit: contain;
 }
 
 .footer .assets .logo {
-    height: 5.375em;
+    max-height: 5.375em;
     width: 5.6875em;
 }
 
 .footer .assets .img {
-    height: 8.875em;
+    max-height: 8.875em;
     width: 8.875em;
 }
 
@@ -160,6 +163,7 @@ section {
     justify-content: center;
     align-items: flex-start;
     width: 43.375em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .footer .text p {
@@ -180,7 +184,33 @@ section {
 }
 
 .footer .text .credit {
+    text-align: left;
     color: #D8E8CB;
     font-size: 0.9375em;
     line-height: 1.125em;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .footer div {
+        padding: 0;
+    }
+
+    .footer .assets img {
+        max-width: 100%;
+    }
+
+    .footer .text {
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .footer .text p, .footer .text .credit {
+        text-align: center;
+    }
 }
