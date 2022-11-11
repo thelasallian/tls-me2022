@@ -10,7 +10,7 @@
     $candidates_list_data = json_decode(file_get_contents('./json/candidates-per-position.json'), true);
     ?>
 
-    <div class="row row-cols-auto justify-content-center">
+    <div class="row row-cols-auto justify-content-center mb-3">
         <div class="col">
             <!-- Dropdown -->
             <select class="form-select" aria-label="List of Issues" id="issues-dropdown">
@@ -42,12 +42,12 @@
     </div>
 
     <!-- Display Candidates -->
-    <div class="row row-cols-1 row-cols-md-2 g-0 px-4 px-md-0">
+    <div class="row row-cols-1 row-cols-md-2 g-2 px-4 px-md-0">
         <!-- Column 1: OPRES to RVRCOB CP -->
         <div class="col">
 
             <!-- OPRES -->
-            <span class="position-label"><?php echo $candidates_list_data[0]["position"]; ?></span>
+            <span class="position-label mb-3"><?php echo $candidates_list_data[0]["position"].":"; ?></span>
             <div class="row g-2 mb-4">
                 
                 <?php foreach ($candidates_list_data[0]["candidates"] as $cand): ?>
@@ -63,7 +63,7 @@
                 <div class="row row-cols-2 g-2 mb-4">
                     <?php for ($col = 0; $col < 2; $col++): ?>
                         <div class="col">
-                            <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"]; ?></span>
+                            <span class="position-label mb-3"><?php echo $candidates_list_data[$pos_index]["position"].":"; ?></span>
                             <?php foreach ($candidates_list_data[$pos_index]["candidates"] as $cand): ?>
                                 <?php render_cand_info($cand); ?>
                             <?php endforeach; ?>
@@ -80,9 +80,9 @@
                 <div class="row row-cols-2 g-2 mb-4">
                     <?php for ($col = 0; $col < 2; $col++): ?>
                         <div class="col">
-                            <!-- <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"]; ?></span> -->
+                            <!-- <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"].":"; ?></span> -->
                             <?php if ($pos_index < 12) : ?>
-                                <span class="position-label"><?php echo $candidates_list_data[$pos_index]["position"]; ?></span>
+                                <span class="position-label mb-3"><?php echo $candidates_list_data[$pos_index]["position"].":"; ?></span>
                                 <?php foreach ($candidates_list_data[$pos_index]["candidates"] as $cand): ?>
                                     <?php render_cand_info($cand); ?>
                                 <?php endforeach; ?>
@@ -106,7 +106,7 @@
         $candidate_id = str_replace(" ", "-", $candidate_id);
 
         echo <<<INFO
-            <div class="ft-cand-info d-flex align-items-center">
+            <div class="ft-cand-info d-flex">
                 <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
                 <p>
                     <span class="ft-cand-name">{$cand["surname"]}</span><br/>

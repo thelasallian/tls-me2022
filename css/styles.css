@@ -136,8 +136,8 @@ section {
 }
 
 .ft-cand-portrait {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2rem;
+    height: 2rem;
     background-color: black;
     border-radius: 100%;
     border: 0.25rem solid gray;
