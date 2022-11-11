@@ -5,7 +5,7 @@
     <!-- Navbar -->
     <?php require_once 'modules/navbar.php'; ?>
 
-    <!-- Footer -->
+    <!-- Header -->
     <?php require_once 'modules/header.php'; ?>
 
     <!-- Main Content -->
