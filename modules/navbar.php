@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light px-2">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
     <div class="container">
         <a class="navbar-brand" href="">
             <img src="assets/tls-wordmark-white.svg" alt="TLS Name Logo">
