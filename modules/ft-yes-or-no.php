@@ -30,11 +30,11 @@
             <div class="ft-legend">
                 <!-- <span class="ft-legend-label">Legend:</span> -->
                 <div class="ft-legend-item me-3">
-                    <img class="ft-cand-portrait ft-cand-yes me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                    <img class="ft-cand-portrait ft-cand-sample ft-cand-yes me-2" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
                     Yes
                 </div>
                 <div class="ft-legend-item">
-                    <img class="ft-cand-portrait ft-cand-no me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                    <img class="ft-cand-portrait ft-cand-sample ft-cand-no me-2" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
                     No
                 </div>
             </div>
@@ -107,7 +107,7 @@
 
         echo <<<INFO
             <div class="ft-cand-info d-flex align-items-center">
-                <img class="ft-cand-portrait me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
                 <p>
                     <span class="ft-cand-name">{$cand["surname"]}</span><br/>
                     <span class="ft-cand-party">{$cand["party"]}</span>

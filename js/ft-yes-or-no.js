@@ -15,11 +15,10 @@ $("#issues-dropdown").on('change', function() {
     var selected_option = $("#issues-dropdown").val();
     
     // Trigger animation
-    $(".ft-cand-portrait").addClass("flip-vertical-right");
+    $(".ft-cand-flip").addClass("flip-vertical-right");
     setTimeout(function(){
-        $('.ft-cand-portrait').removeClass('flip-vertical-right');
+        $('.ft-cand-flip').removeClass('flip-vertical-right');
     },1000);
-    $("#current-selection").text(selected_option);
 
     // Iterate through yes/no data for each candidate based on surname
     $.each(yes_no_data, function( key, value ){
