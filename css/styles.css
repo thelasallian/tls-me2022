@@ -24,7 +24,7 @@ body {
 
 /* Header */
 .header-container {
-    height: 39em;
+    min-height: 39em;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
@@ -32,7 +32,13 @@ body {
 
 .header-container #bg {
     background-color: white;
-    height: 30.625em;
+    max-height: 30.625em;
+}
+
+.header-container #banner {
+    max-height: 38.625em;
+    position: relative;
+    left: 23em;
 }
 
 .header-container #content {
@@ -46,7 +52,7 @@ body {
 }
 
 #content #logo {
-    width: 8.5rem;
+    max-width: 8.5rem;
     padding-bottom: 2.5em;
 }
 
@@ -69,10 +75,85 @@ body {
     line-height: 2em;
 }
 
-.header-container #banner {
-    height: 38.625em;
-    position: relative;
-    left: 25em;
+@media screen and (max-width: 800px){
+    .header-container{
+        min-height: min-content;
+        max-height: max-content;
+        margin-bottom: 5%;
+    }
+
+    .header-container #bg {
+        max-height: max-content;
+    }
+    
+    .header-container #banner {
+        left: -10%;
+        max-width: 120%;
+        object-fit: cover;
+    }
+    
+    .header-container #content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2%;
+        min-height: 15em;
+        width: 100%;
+    }
+
+    #content #logo {
+        padding: 0;
+    }
+
+    #content #text {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    
+    #content h1, #content h2, #content p {
+        line-height: normal;
+    }
+
+    #content h1 {
+        font-size: 337%;
+        margin-bottom: 2%;
+    }
+    
+    #content h2 {
+        font-size: 206%;
+        margin-bottom: 8%;
+    }
+    
+    #content p {
+        font-size: 94%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header-container #content {
+        min-height: 10em;
+    }
+
+    #content #logo {
+        width: 5em;
+    }
+
+    #content h1 {
+        font-size: 267%;
+    }
+    
+    #content h2 {
+        font-size: 136%;
+    }
+    
+    #content p {
+        font-size: 84%;
+    }
 }
 
 /* Common Styles Everywhere */
