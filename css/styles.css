@@ -85,10 +85,26 @@ section {
     padding: 1rem 0.3rem;
 }
 
+.vp-master-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .vp-wrapper {
+    position: relative;
     overflow-x: scroll;
     width: 100%;
     white-space: nowrap;
+}
+
+.vp-wrapper-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 
 .vp-photo-wrapper {
