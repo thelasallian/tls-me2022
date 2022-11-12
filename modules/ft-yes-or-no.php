@@ -19,7 +19,7 @@
                 <option value="masks">Voluntary Wearing of Face Masks</option>
                 <option value="sim-card">SIM Card Registration</option>
                 <option value="rotc">Mandatory ROTC</option>
-                <option value="no-fail">No-Fail Policy for F2F Classes</option>
+                <option value="no-fail">No Fail Policy for F2F Classes</option>
                 <option value="state-calamity">National State of Calamity Declaration</option>
                 <option value="face-to-face">Full F2F Setup</option>
             </select>
@@ -107,7 +107,7 @@
 
         echo <<<INFO
             <div class="ft-cand-info d-flex">
-                <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="{$cand["portrait"]}" alt=""  />
                 <p>
                     <span class="ft-cand-name">{$cand["surname"]}</span><br/>
                     <span class="ft-cand-party">{$cand["party"]}</span>
