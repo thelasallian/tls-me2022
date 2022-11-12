@@ -185,6 +185,20 @@ button.active {
     text-align: center;
 }
 
+p.card-tag {
+    color: var(--green-3) !important;
+    background-color: var(--green-1);
+}
+
+h5.card-title {
+    color: black !important;
+}
+
+p.card-text {
+    color: black !important;
+}
+
+
 /* Fast Talk: Yes or No */
 
 #issues-dropdown {
