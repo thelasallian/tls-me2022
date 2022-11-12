@@ -19,7 +19,7 @@
                 <option value="masks">Voluntary Wearing of Face Masks</option>
                 <option value="sim-card">SIM Card Registration</option>
                 <option value="rotc">Mandatory ROTC</option>
-                <option value="no-fail">No-Fail Policy for F2F Classes</option>
+                <option value="no-fail">No Fail Policy for F2F Classes</option>
                 <option value="state-calamity">National State of Calamity Declaration</option>
                 <option value="face-to-face">Full F2F Setup</option>
             </select>
