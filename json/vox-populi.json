@@ -67,7 +67,7 @@
     },
     {
       "filepath": "./assets/vox-populi/NZ-1586.jpg",
-      "answer": "<span class=\"vp-long-text\"><u>Palaban!</u> Outspoken about pressing issues inside and outside the university, pro-student<br/><u>Intelligent!</u> Socially, emotionally, and politically</span>",
+      "answer": "<span class=\"vp-long-text\"><u>Palaban!</u> Outspoken about pressing issues inside and outside the university, pro-student</span>\n<span class=\"vp-long-text\"><u>Intelligent!</u> Socially, emotionally, and politically</span>",
       "name": "",
       "id": ""
     },

@@ -122,11 +122,18 @@ section {
     font-size: 1.5em;
     font-family: 'Fira Sans Condensed';
     font-weight: 600;
+    line-height: 1.15;
+}
+
+.vp-answer:has(> .vp-long-text) {
+    font-size: .95em !important;
+    font-family: 'Fira Sans Condensed';
+    font-weight: 600;
 }
 
 .vp-long-text {
-    font-size: .75em !important;
-    line-height: 0 !important;
+    margin-bottom: .5rem;
+    display: block;
 }
 
 .vp-photo-overlay .material-icons {
@@ -138,7 +145,9 @@ section {
 }
 
 .vp-photo {
+    width: 18rem;
     height: 18rem;
+    object-fit: cover;
 }
 
 .vp-button-wrapper button {
