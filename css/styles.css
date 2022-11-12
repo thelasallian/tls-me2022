@@ -51,7 +51,7 @@ body {
     position: absolute;
     font-family: 'Fira Sans Condensed';
     color: #335932;
-    top: 0;
+    top: 3em;
     left: 0;
     padding-left: 3.6875em;
     padding-top: 4em;
@@ -114,6 +114,7 @@ body {
         padding: 2%;
         min-height: min-content;
         width: 100%;
+        top: 0;
     }
 
     #content #logo {
