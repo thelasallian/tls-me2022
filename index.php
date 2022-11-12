@@ -5,6 +5,9 @@
     <!-- Navbar -->
     <?php require_once 'modules/navbar.php'; ?>
 
+    <!-- Header -->
+    <?php require_once 'modules/header.php'; ?>
+
     <!-- Main Content -->
     <main class="container">
         <!-- 
