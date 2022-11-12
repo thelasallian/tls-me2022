@@ -107,7 +107,7 @@
 
         echo <<<INFO
             <div class="ft-cand-info d-flex">
-                <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="https://icones.pro/wp-content/uploads/2021/03/avatar-de-personne-icone-homme.png" alt=""  />
+                <img class="ft-cand-portrait ft-cand-flip me-2" id="{$candidate_id}" src="{$cand["portrait"]}" alt=""  />
                 <p>
                     <span class="ft-cand-name">{$cand["surname"]}</span><br/>
                     <span class="ft-cand-party">{$cand["party"]}</span>

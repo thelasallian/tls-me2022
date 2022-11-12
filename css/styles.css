@@ -136,12 +136,14 @@ section {
 }
 
 .ft-cand-portrait {
-    width: 2rem;
-    height: 2rem;
-    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
     border-radius: 100%;
     border: 0.25rem solid gray;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center 0.1rem;
 }
 
 .ft-cand-yes {
