@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'made_outer_sansblack';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_black_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_black_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 800;
     font-style: normal;
 
 }
@@ -15,10 +15,10 @@
 
 
 @font-face {
-    font-family: 'made_outer_sansbold';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_bold_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_bold_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -27,10 +27,10 @@
 
 
 @font-face {
-    font-family: 'made_outer_sanslight';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_light_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_light_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -39,10 +39,10 @@
 
 
 @font-face {
-    font-family: 'made_outer_sansmedium';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_medium_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_medium_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 
 }
@@ -51,7 +51,7 @@
 
 
 @font-face {
-    font-family: 'made_outer_sansregular';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_regular_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_regular_personal_use-webfont.woff') format('woff');
     font-weight: normal;
@@ -63,10 +63,10 @@
 
 
 @font-face {
-    font-family: 'made_outer_sansthin';
+    font-family: 'MADE Outer Sans';
     src: url('made_outer_sans_thin_personal_use-webfont.woff2') format('woff2'),
          url('made_outer_sans_thin_personal_use-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
 
 }
