@@ -1,56 +1,104 @@
 [
     {
-      "filepath": "./assets/sample-vox-populi/vp-1.jpg",
+      "filepath": "./assets/vox-populi/AB-1770.jpg",
       "answer": "Leadership skills, problem-solving skills, integrity",
-      "name": "Eloisa Limbago",
-      "id": "ID 124, BSCS"
+      "name": "",
+      "id": ""
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-2.jpg",
+      "filepath": "./assets/vox-populi/AB-1772.jpg",
       "answer": "Initiative and passionate in their duties",
-      "name": "Angelo Guerra",
-      "id": "ID 119, BSOP"
+      "name": "",
+      "id": ""
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-3.jpg",
+      "filepath": "./assets/vox-populi/AB-1775.jpg",
       "answer": "Open to constructive criticism",
-      "name": "Elliamae Ang",
-      "id": "ID 534, BSTW"
+      "name": "",
+      "id": ""
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-4.jpg",
+      "filepath": "./assets/vox-populi/AB-1778.jpg",
       "answer": "Great work ethics",
-      "name": "Bonky Castaneda",
-      "id": "ID 124, BSCS"
+      "name": "",
+      "id": ""
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-5.jpeg",
+      "filepath": "./assets/vox-populi/AC-9661.jpg",
       "answer": "Proper communication",
-      "name": "Ana Mapa",
-      "id": "ID 119, BSOP"
+      "name": "Alfonso Carcereny",
+      "id": "ID 120, BS-PSYC"
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-6.jpeg",
+      "filepath": "./assets/vox-populi/AC-9663.jpg",
       "answer": "Strategic focus",
-      "name": "Miguel Robles",
-      "id": "ID, 534, BSTW"
+      "name": "Lorenzo Alfonso",
+      "id": "ID 120"
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-7.jpeg",
-      "answer": "Smart worker, consistent, selfless",
-      "name": "Diego Manzano",
-      "id": "ID 124, BSCS"
-    },
-    {
-      "filepath": "./assets/sample-vox-populi/vp-8.jpeg",
+      "filepath": "./assets/vox-populi/AC-9667.jpg",
       "answer": "Present, dependable, team-player",
-      "name": "Angel Prieto",
-      "id": "ID 119, BSOP"
+      "name": "Julianna Grace Chua",
+      "id": "ID 119, BSA"
     },
     {
-      "filepath": "./assets/sample-vox-populi/vp-9.jpeg",
+      "filepath": "./assets/vox-populi/AC-9669.jpg",
       "answer": "Accountability",
-      "name": "Bea Cabug",
-      "id": "ID 534, BSTW"
+      "name": "Jessica Ang",
+      "id": "ID 120, ADV-PSM"
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1460.jpg",
+      "answer": "Responsible",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1480.jpg",
+      "answer": "Transparent, selfless, empathetic",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1483.jpg",
+      "answer": "Approachable, obviously responsible",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1586.jpg",
+      "answer": "<u>Palaban!</u> Outspoken about pressing issues inside and outside the university, pro-student\n<br/></br>\n<u>Intelligent!</u> Socially, emotionally, and politically",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1588.jpg",
+      "answer": "Competent",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1590.jpg",
+      "answer": "Active listener",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1601.jpg",
+      "answer": "Transparency and resilience <sub>#slayful</sub>",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1606.jpg",
+      "answer": "Knows how to delegate tasks among the rest of the members",
+      "name": "",
+      "id": ""
+    },
+    {
+      "filepath": "./assets/vox-populi/NZ-1608.jpg",
+      "answer": "Listens to everyone's needs and acts accordingly",
+      "name": "",
+      "id": ""
     }
   ]
