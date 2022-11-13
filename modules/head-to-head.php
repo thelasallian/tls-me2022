@@ -1,4 +1,4 @@
-<div class="section-header">
+<div class="section-header" id="head-to-head-header">
     <img src="/assets/section-icons/head-to-head.png" alt="Head-to-Head" class="section-header-icon" />
     <h1 class="section-header-text">Head-to-Head</h1>
 </div>
@@ -18,8 +18,8 @@
 
     <?php
     // Convert JSON to associative array (true parameter)
-    $hth_eb_data = json_decode(file_get_contents('./json/hth-eb-articles.json'), true);
-    $hth_cp_data = json_decode(file_get_contents('./json/hth-cp-articles.json'), true);
+    $hth_eb_data = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/hth-eb-articles.json'), true);
+    $hth_cp_data = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/hth-cp-articles.json'), true);
     ?>
 
     <!-- Tab Content -->

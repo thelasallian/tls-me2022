@@ -1,4 +1,4 @@
-<div class="section-header">
+<div class="section-header" id="vox-populi-header">
     <img src="/assets/section-icons/vox-populi.png" alt="Vox Populi" class="section-header-icon" />
     <h1 class="section-header-text">Vox Populi</h1>
 </div>
@@ -8,7 +8,7 @@
         <!-- Fetch Data -->
         <?php
         // Convert JSON to associative array (true parameter)
-        $vp_photos = json_decode(file_get_contents('./json/vox-populi.json'), true);
+        $vp_photos = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/vox-populi.json'), true);
         ?>
         <div class="vp-button-wrapper d-flex align-items-center flex-shrink-1">
             <button id="left-btn" class="material-icons vp-button">chevron_left</button>

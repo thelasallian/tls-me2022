@@ -1,4 +1,4 @@
-<div class="section-header">
+<div class="section-header" id="ft-yes-or-no-header">
     <img src="/assets/section-icons/ft-yes-or-no.png" alt="Fast Talk: Yes or No" class="section-header-icon"/ >
     <h1 class="section-header-text">Fast Talk: Yes or No</h1>
 </div>
@@ -7,7 +7,7 @@
     <!-- Fetch Data -->
     <?php
     // Convert JSON to associative array (true parameter)
-    $candidates_list_data = json_decode(file_get_contents('./json/candidates-per-position.json'), true);
+    $candidates_list_data = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/candidates-per-position.json'), true);
     ?>
 
     <div class="row row-cols-auto justify-content-center mb-3">
