@@ -7,7 +7,7 @@
     <!-- Fetch Data -->
     <?php
     // Convert JSON to associative array (true parameter)
-    $candidates_list_data = json_decode(file_get_contents('./json/candidates-per-position.json'), true);
+    $candidates_list_data = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/candidates-per-position.json'), true);
     ?>
 
     <div class="row row-cols-auto justify-content-center mb-3">
