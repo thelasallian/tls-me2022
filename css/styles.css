@@ -607,6 +607,7 @@ section {
 .hth-ft-pills .nav-link {
     font-family: 'Fira Sans Condensed';
     font-weight: 600;
+    font-size: 0.8em;
     text-transform: uppercase;
     border-radius: 3rem;
     color: var(--green-3);
@@ -672,3 +673,12 @@ section {
     color: var(--green-2);
 }
 
+@media (max-width: 450px) {
+    .hth-ft-visual-wrapper {
+        width: 105px;
+    }
+
+    .hth-ft-article-info > a > h2 {
+        font-size: 1em;
+    }
+}
