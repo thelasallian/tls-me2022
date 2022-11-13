@@ -106,7 +106,7 @@
       "sim-card": "No",
       "rotc": "No",
       "no-fail": "Yes",
-      "state-calamity": "No",
+      "state-calamity": "Yes",
       "face-to-face": "No"
     },
     {
@@ -116,7 +116,7 @@
       "sim-card": "Yes",
       "rotc": "No",
       "no-fail": "Yes",
-      "state-calamity": "Yes",
+      "state-calamity": "No",
       "face-to-face": "No"
     },
     {

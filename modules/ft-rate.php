@@ -4,5 +4,5 @@
 </div>
 
 <div class="section-body">
-    
+    <img src="/assets/ft-rate.png" alt="Fast Talk: 0.0 to 4.0" class="ft-rate">
 </div>

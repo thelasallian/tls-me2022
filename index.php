@@ -5,6 +5,9 @@
     <!-- Navbar -->
     <?php require_once 'modules/navbar.php'; ?>
 
+    <!-- Header -->
+    <?php require_once 'modules/header.php'; ?>
+
     <!-- Main Content -->
     <main class="container">
         <!-- 
@@ -57,5 +60,6 @@
     <script src="js/script.js"></script>
     <script src="js/ft-yes-or-no.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/vox-populi.js"></script>
 </body>
 </html>

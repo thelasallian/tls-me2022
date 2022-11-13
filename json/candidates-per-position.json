@@ -6,13 +6,13 @@
                 "surname": "Brotonel",
                 "first-name": "Alex",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OPRES-Alex-Brotonel.png"
             },
             {
                 "surname": "Paras",
                 "first-name": "Jasmine",
                 "party": "Abante",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OPRES-Jasmine-Paras.png"
             }
         ]
     },
@@ -23,7 +23,7 @@
                 "surname": "Ajesta",
                 "first-name": "Arvin",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OVPEA-Arvin-Ajesta.png"
             }
         ]
     },
@@ -34,7 +34,7 @@
                 "surname": "Siy",
                 "first-name": "Janine",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OVPIA-Janine-Siy.png"
             }
         ]
     },
@@ -45,7 +45,7 @@
                 "surname": "San Juan",
                 "first-name": "Marco",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OSEC-Marco-San-Juan.png"
             }
         ]
     },
@@ -56,7 +56,7 @@
                 "surname": "Gernandiso",
                 "first-name": "Cid",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/OTREAS-Cid-Gernandiso.png"
             }
         ]
     },
@@ -67,13 +67,13 @@
                 "surname": "Ilagan",
                 "first-name": "Yanna",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/CLA-CP-Yanna-Ilagan.png"
             },
             {
                 "surname": "Francisco",
                 "first-name": "Ashley",
                 "party": "Tindig CLA",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/CLA-CP-Ashley-Francisco.png"
             }
         ]
     },
@@ -84,13 +84,13 @@
                 "surname": "Rebong",
                 "first-name": "Juliana",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/RVRCOB-CP-Juliana-Rebong.png"
             },
             {
                 "surname": "Chua",
                 "first-name": "Tiffany Mae",
                 "party": "Angat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/RVRCOB-CP-Tiffany-Chua.png"
             }
         ]
     },
@@ -101,13 +101,13 @@
                 "surname": "Morada",
                 "first-name": "Lauren",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/SOE-Lauren-Morada.png"
             },
             {
                 "surname": "Prado",
                 "first-name": "Hannah",
                 "party": "Pulso",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/SOE-CP-Hannah-Prado.png"
             }
         ]
     },
@@ -118,13 +118,13 @@
                 "surname": "Lucena",
                 "first-name": "Roxy",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/GCOE-CP-Roxy-Lucena.png"
             },
             {
                 "surname": "Sy",
                 "first-name": "Rannah",
                 "party": "LEAD",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/GCOE-CP-Rannah-Sy.png"
             }
         ]
     },
@@ -135,7 +135,7 @@
                 "surname": "Astillo",
                 "first-name": "Clouie",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/BAGCED-CP-Clouie-Astillo.png"
             }
         ]
     },
@@ -146,7 +146,7 @@
                 "surname": "Perez",
                 "first-name": "Tracy",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "./assets/candidate-portraits/COS-CP-Tracy-Perez.png"
             }
         ]
     },
@@ -157,7 +157,7 @@
                 "surname": "Lopez",
                 "first-name": "Angel",
                 "party": "Tapat",
-                "portrait": ""
+                "portrait": "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678130-profile-alt-4-512.png"
             }
         ]
     }

@@ -4,19 +4,8 @@
 </div>
 
 <div class="section-body">
-    <?php
-        // Convert JSON to associative array (true parameter)
-        $features_data = json_decode(file_get_contents('./json/feature-articles.json'), true);
-
-        // TEMPORARYL To display each array element
-        echo '<ol>';
-        foreach ($features_data as $i) {
-            
-            echo '<li>';
-            echo $i["title"].'<br/>';
-            echo $i["byline"].'<br/>';
-            echo '</li>';
-        }
-        echo '</ol>';
-    ?>
+    <!-- Temporary -->
+    <div class="temp-coming-soon">
+        Coming Soon
+    </div>
 </div>
