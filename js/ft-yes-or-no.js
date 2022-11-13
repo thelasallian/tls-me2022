@@ -1,7 +1,7 @@
 // Get JSON data and it as an associative array into a variable
 var yes_no_data = {};
 $.ajax({
-    url: "https://raw.githubusercontent.com/ronnparcia/tls-me2022/jquery-fix/json/fast-talk-YN.json",
+    url: "https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/fast-talk-YN.json",
     async: false,
     dataType: 'json',
     success: function (data) {
