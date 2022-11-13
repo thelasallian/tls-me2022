@@ -164,6 +164,7 @@ section {
     align-items: flex-start;
     width: 43.375em;
     margin: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 0.9em;
 }
 
 .footer .text p {
@@ -172,21 +173,19 @@ section {
 }
 
 .footer .text .about {
-    font-size: 1.125em;
     line-height: 1.375em;
     padding-bottom: 2em;
 }
 
 .footer .text .copyright {
     font-weight: bold;
-    font-size: 1em;
     padding-bottom: 1em;
 }
 
 .footer .text .credit {
     text-align: left;
     color: #D8E8CB;
-    font-size: 0.9375em;
+    font-size: 0.8em;
     line-height: 1.125em;
 }
 
