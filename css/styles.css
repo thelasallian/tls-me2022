@@ -27,7 +27,7 @@ nav {
     background: #335934;
 }
 
-a.nav-link {
+nav > a.nav-link {
     color: white;
     text-align: center;
     text-decoration: none;
