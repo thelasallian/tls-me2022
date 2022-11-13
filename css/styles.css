@@ -224,7 +224,7 @@ section {
     display: flex;
     align-items: center;
 
-    background-color: var(--green-1);
+    background-color: #7AA877;
 }
 
 .section-header > img.section-header-icon {
@@ -233,11 +233,11 @@ section {
 }
 
 .section-header > h1.section-header-text {
-    font-family: 'Lexend';
-    font-weight: 600; /* Semibold */
-    font-size: 1.25em;
+    font-family: 'MADE Outer Sans';
+    font-weight: 500; /* Medium */
+    font-size: 1em;
     text-transform: uppercase;
-    color: var(--green-3);
+    color: white;
 }
 
 
