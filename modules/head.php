@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Make-up Elections 2022 | The LaSallian</title>
+    <title>Make-Up Elections 2022 | The LaSallian</title>
 
     <!-- Favicons -->
     <link rel="icon" href="https://thelasallian.com/wp-content/uploads/2020/06/LOGO.png" sizes="32x32" />
@@ -24,4 +24,9 @@
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Metadata -->
+    <meta property="og:image" content="./assets/mue-header-thumbnail.jpeg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="description" content="The LaSallian's web special for the 2022 Make-Up Elections.">
 </head>
