@@ -5,20 +5,38 @@
 
 <div class="section-body">
     <!-- Pills -->
-    <ul class="nav nav-pills" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="college-presidents-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">College Presidents</button>
-        </li>
-    </ul>
+    <div class="hth-pills nav-pills-wrapper d-flex justify-content-center">
+        <ul class="nav nav-pills" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="college-presidents-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">College Presidents</button>
+            </li>
+        </ul>
+    </div>
+
+    <?php
+    // Convert JSON to associative array (true parameter)
+    $hth_eb_data = json_decode(file_get_contents('./json/hth-eb-articles.json'), true);
+    ?>
 
     <!-- Tab Content -->
     <div class="tab-content" id="myTabContent">
         <!-- Executive Board -->
         <div class="tab-pane fade show active" id="executive-board-pane" role="tabpanel" aria-labelledby="executive-board-tab" tabindex="0">
-            EB
+            <?php foreach ($hth_eb_data as $eb_article): ?>
+                <div class="hth-article-card">
+                    <div class="hth-visual-wrapper">
+                        <img src="<?php echo $eb_article["visual"]; ?>" alt="" class="hth-visual">
+                    </div>
+                    <div class="hth-article-info">
+                        <span class="position-label"><?php echo $eb_article["position"]; ?></span>
+                        <h2><?php echo $eb_article["title"]; ?></h2>
+                        <p><?php echo $eb_article["byline"]; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
         <!-- College Presidents -->
         <div class="tab-pane fade" id="college-presidents-pane" role="tabpanel" aria-labelledby="college-presidents-tab" tabindex="0">
@@ -26,21 +44,4 @@
         </div>
     </div>
 
-
-    <?php
-// Convert JSON to associative array (true parameter)
-$hth_data = json_decode(file_get_contents('./json/hth-articles.json'), true);
-
-// TEMPORARYL To display each array element
-echo '<ol>';
-foreach ($hth_data as $i) {
-
-    echo '<li>';
-    echo $i["position"] . '<br/>';
-    echo $i["title"] . '<br/>';
-    echo $i["byline"] . '<br/>';
-    echo '</li>';
-}
-echo '</ol>';
-?>
 </div>

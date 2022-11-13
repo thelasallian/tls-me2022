@@ -597,3 +597,42 @@ section {
 .footer a:hover {
     text-decoration: underline;
 }
+
+/* HTH and Features Salo */
+
+.hth-article-card {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.hth-article-card:not(:last-child) {
+    border-bottom: 0.025rem solid #B4BAC6;
+}
+
+.hth-visual-wrapper {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.hth-visual-wrapper > .hth-visual {
+    width: 100%;
+    border-radius: .25rem;
+    border: 0.5px solid var(--green-1);
+}
+
+.hth-article-info {
+    width: calc(100% - 150px);
+}
+
+.hth-article-info > h2 {
+    /* Title */
+    font-size: 1.15em;
+    font-family: 'Fira Sans Condensed';
+    margin-bottom: .5rem;
+}
+
+.hth-article-info > p {
+    /* Author */
+    font-size: 0.75em;
+}
+
