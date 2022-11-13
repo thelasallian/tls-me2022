@@ -641,7 +641,17 @@ section {
     width: calc(100% - 150px);
 }
 
-.hth-article-info > h2 {
+.hth-article-info > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hth-article-info > a:hover {
+    text-decoration: underline;
+    color: var(--green-3);
+}
+
+.hth-article-info > a > h2 {
     /* Title */
     font-size: 1.25em;
     font-family: 'Fira Sans Condensed';

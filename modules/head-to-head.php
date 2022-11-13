@@ -32,7 +32,9 @@
                     </div>
                     <div class="hth-article-info">
                         <span class="position-label"><?php echo $eb_article["position"]; ?></span>
-                        <h2><?php echo $eb_article["title"]; ?></h2>
+                        <a href="<?php echo $eb_article["link"]; ?>" target="_blank">
+                            <h2><?php echo $eb_article["title"]; ?></h2>
+                        </a>
                         <p><?php echo $eb_article["byline"]; ?></p>
                     </div>
                 </div>
