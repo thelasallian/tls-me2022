@@ -185,8 +185,9 @@ section {
 .footer .text .credit {
     text-align: left;
     color: #D8E8CB;
-    font-size: 0.8em;
+    font-size: 0.75em;
     line-height: 1.125em;
+    width: fit-content;
 }
 
 @media screen and (max-width: 800px) {
@@ -207,9 +208,6 @@ section {
     .footer .text {
         align-items: center;
         max-width: 90%;
-    }
-
-    .footer > .copyright, .credit {
         text-align: center;
     }
 }
