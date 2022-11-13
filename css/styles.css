@@ -567,7 +567,7 @@ section {
     width: fit-content;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .footer {
         flex-direction: column;
         padding-top: 1em;
@@ -604,6 +604,11 @@ section {
 
     .footer > .text > .about {
         padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer > .text > .credit {
+        text-align: center;
     }
 }
 
