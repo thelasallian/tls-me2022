@@ -4,14 +4,17 @@
 </div>
 
 <div class="section-body">
-    <!-- Bootstrap Pills: Executive Board / College Presidents -->
+    <!-- Bootstrap Pills: Executive Board / CLA, COB, SOE, GCOE / COS, BACGED, LCSG -->
     <div class="hth-ft-pills nav-pills-wrapper d-flex justify-content-center">
         <ul class="nav nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item me-2" role="presentation">
                 <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">EXECUTIVE BOARD</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="college-presidents-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-pane" type="button" role="tab" aria-controls="pills-cla-cob-soe-gcoe" aria-selected="false">COLLEGE PRESIDENTS</button>
+                <button class="nav-link" id="cla-cob-gcoe-soe-tab" data-bs-toggle="tab" data-bs-target="#cla-cob-gcoe-soe-pane" type="button" role="tab" aria-controls="pills-cla-cob-soe-gcoe" aria-selected="false">CLA, COB, SOE, GCOE</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="cos-bagced-lcsg-tab" data-bs-toggle="tab" data-bs-target="#cos-bagced-lcsg-pane" type="button" role="tab" aria-controls="pills-cos-bagced-lcsg" aria-selected="false">COS, BAGCED, LCSG</button>
             </li>
         </ul>
     </div>
@@ -41,11 +44,33 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <!-- College Presidents -->
-        <div class="tab-pane fade" id="college-presidents-pane" role="tabpanel" aria-labelledby="college-presidents-tab" tabindex="0">
+        <!-- CLA, COB, SOE, GCOE -->
+        <div class="tab-pane fade" id="cla-cob-soe-gcoe-pane" role="tabpanel" aria-labelledby="cla-cob-soe-gcoe-tab" tabindex="0">
 
             <!-- Convert JSON to associative array (true parameter) -->
-            <?php $hth_cp_data = json_decode(file_get_contents('./json/hth-cp-articles.json'), true); ?>
+            <?php $hth_cp_data = json_decode(file_get_contents('./json/hth-cla-cob-soe-gcoe.json'), true); ?>
+
+            <!-- PHP Loop to Render College Presidents Cards -->
+            <?php foreach($hth_cp_data as $cp_article): ?>
+                <div class="hth-article-card">
+                    <div class="hth-visual-wrapper">
+                        <img src="<?php echo $cp_article['visual']; ?>" alt="" class="hth-visual">
+                    </div>
+                        <div class="hth-article-details">
+                            <a href="<?php echo $cp_article['link']; ?>" target="_blank">
+                                <h2><?php echo $cp_article['title']; ?></h2>
+                            </a>
+                            <p><?php echo $cp_article['byline']; ?></p>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <!-- COS, BACGED, LCSG -->
+        <div class="tab-pane fade" id="cos-bagced-lcsg-pane" role="tabpanel" aria-labelledby="cos-bagced-lcsg-tab" tabindex="0">
+
+            <!-- Convert JSON to associative array (true parameter) -->
+            <?php $hth_cp_data = json_decode(file_get_contents('./json/hth-cos-bagced-lcsg.json'), true); ?>
 
             <!-- PHP Loop to Render College Presidents Cards -->
             <?php foreach($hth_cp_data as $cp_article): ?>
