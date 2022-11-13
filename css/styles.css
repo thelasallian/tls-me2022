@@ -600,6 +600,23 @@ section {
 
 /* HTH and Features Salo */
 
+.hth-pills {
+    margin-bottom: 1rem;
+}
+
+.hth-pills .nav-link {
+    font-family: 'Fira Sans Condensed';
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    color: var(--green-3);
+    border: .75px solid var(--green-3);
+}
+
+.hth-pills .nav-link.active {
+    background-color: var(--green-3);
+}
+
 .hth-article-card {
     display: flex;
     padding: 1rem 0;

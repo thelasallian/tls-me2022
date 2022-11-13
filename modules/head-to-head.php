@@ -7,7 +7,7 @@
     <!-- Pills -->
     <div class="hth-pills nav-pills-wrapper d-flex justify-content-center">
         <ul class="nav nav-pills" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
+            <li class="nav-item me-2" role="presentation">
                 <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
             </li>
             <li class="nav-item" role="presentation">
