@@ -17,11 +17,11 @@
 
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav ms-auto text-center">
-                <li><a class="nav-link" href="#vox-populi">VOX POPULI</a></li>
-                <li><a class="nav-link" href="#head-to-head">HEAD-TO-HEAD</a></li>
-                <li><a class="nav-link" href="#ft-yes-or-no">YES OR NO</a></li>
-                <li><a class="nav-link" href="#ft-rate">0.0 TO 4.0</a></li>
-                <li><a class="nav-link" href="#features">FEATURES</a></li>
+                <li><a class="nav-link" id="vox-populi" href="#vox-populi">VOX POPULI</a></li>
+                <li><a class="nav-link" id="head-to-head" href="#head-to-head">HEAD-TO-HEAD</a></li>
+                <li><a class="nav-link" id="ft-yes-or-no" href="#ft-yes-or-no">YES OR NO</a></li>
+                <li><a class="nav-link" id="ft-rate" href="#ft-rate">0.0 TO 4.0</a></li>
+                <li><a class="nav-link" id="features" href="#features">FEATURES</a></li>
             </ul>
         </div>
     </div>
