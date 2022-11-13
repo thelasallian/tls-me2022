@@ -1,4 +1,4 @@
-<div class="section-header">
+<div class="section-header" id="ft-yes-or-no-header">
     <img src="/assets/section-icons/ft-yes-or-no.png" alt="Fast Talk: Yes or No" class="section-header-icon"/ >
     <h1 class="section-header-text">Fast Talk: Yes or No</h1>
 </div>
