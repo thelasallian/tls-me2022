@@ -578,14 +578,32 @@ section {
         padding: 0;
     }
 
+    .footer .assets {
+        margin-bottom: 0;
+    }
+
     .footer .assets img {
         max-width: 100%;
+    }
+
+    .footer > .assets > .logo {
+        height: 3rem;
+    }
+
+    .footer > .assets > .img {
+        height: 5rem;
+        margin-top: 0;
     }
 
     .footer .text {
         align-items: center;
         max-width: 90%;
         text-align: center;
+        font-size: 75%;
+    }
+
+    .footer > .text > .about {
+        padding-bottom: 1rem;
     }
 }
 
