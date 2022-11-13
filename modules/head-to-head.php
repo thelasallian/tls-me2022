@@ -19,6 +19,7 @@
     <?php
     // Convert JSON to associative array (true parameter)
     $hth_eb_data = json_decode(file_get_contents('./json/hth-eb-articles.json'), true);
+    $hth_cp_data = json_decode(file_get_contents('./json/hth-cp-articles.json'), true);
     ?>
 
     <!-- Tab Content -->
@@ -42,10 +43,20 @@
         </div>
         <!-- College Presidents -->
         <div class="tab-pane fade" id="college-presidents-pane" role="tabpanel" aria-labelledby="college-presidents-tab" tabindex="0">
-            <!-- Temporary -->
-            <div class="temp-coming-soon">
-                Coming Soon
-            </div>
+            <?php foreach ($hth_cp_data as $cp_article): ?>
+                <div class="hth-ft-article-card">
+                    <div class="hth-ft-visual-wrapper">
+                        <img src="<?php echo $cp_article["visual"]; ?>" alt="" class="hth-ft-visual">
+                    </div>
+                    <div class="hth-ft-article-info">
+                        <span class="position-label"><?php echo $cp_article["position"]; ?></span>
+                        <a href="<?php echo $cp_article["link"]; ?>" target="_blank">
+                            <h2><?php echo $cp_article["title"]; ?></h2>
+                        </a>
+                        <p><?php echo $cp_article["byline"]; ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 
