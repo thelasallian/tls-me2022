@@ -27,7 +27,7 @@ nav {
     background: #335934;
 }
 
-a.nav-link {
+nav > a.nav-link {
     color: white;
     text-align: center;
     text-decoration: none;
@@ -224,7 +224,7 @@ section {
     display: flex;
     align-items: center;
 
-    background-color: var(--green-1);
+    background-color: #7AA877;
 }
 
 .section-header > img.section-header-icon {
@@ -233,11 +233,11 @@ section {
 }
 
 .section-header > h1.section-header-text {
-    font-family: 'Lexend';
-    font-weight: 600; /* Semibold */
-    font-size: 1.25em;
+    font-family: 'MADE Outer Sans';
+    font-weight: 500; /* Medium */
+    font-size: 1em;
     text-transform: uppercase;
-    color: var(--green-3);
+    color: white;
 }
 
 
@@ -504,7 +504,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    min-height: 27.375rem;
+    /* min-height: 27.375rem; */
     max-width: 100%;
     margin-top: 1.875em;
 }
@@ -541,6 +541,7 @@ section {
     align-items: flex-start;
     width: 43.375em;
     margin: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 0.9em;
 }
 
 .footer .text p {
@@ -549,22 +550,21 @@ section {
 }
 
 .footer .text .about {
-    font-size: 1.125em;
     line-height: 1.375em;
     padding-bottom: 2em;
 }
 
 .footer .text .copyright {
     font-weight: bold;
-    font-size: 1em;
     padding-bottom: 1em;
 }
 
 .footer .text .credit {
     text-align: left;
     color: #D8E8CB;
-    font-size: 0.9375em;
+    font-size: 0.75em;
     line-height: 1.125em;
+    width: fit-content;
 }
 
 @media screen and (max-width: 800px) {
@@ -585,9 +585,100 @@ section {
     .footer .text {
         align-items: center;
         max-width: 90%;
+        text-align: center;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* HTH and Features Salo */
+
+.hth-ft-pills {
+    margin-bottom: 1rem;
+}
+
+.hth-ft-pills .nav-link {
+    font-family: 'Fira Sans Condensed';
+    font-weight: 600;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    color: var(--green-3);
+    border: .75px solid var(--green-3);
+}
+
+.hth-ft-pills .nav-link.active {
+    background-color: var(--green-3);
+}
+
+.hth-ft-article-card {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.hth-ft-article-card:not(:last-child) {
+    border-bottom: 0.025rem solid #B4BAC6;
+}
+
+.hth-ft-visual-wrapper {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.hth-ft-visual-wrapper > .hth-ft-visual {
+    width: 100%;
+    border-radius: .25rem;
+    border: 0.5px solid var(--green-1);
+}
+
+.hth-ft-article-info {
+    width: calc(100% - 150px);
+}
+
+.hth-ft-article-info > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hth-ft-article-info > a:hover {
+    text-decoration: underline;
+    color: var(--green-3);
+}
+
+.hth-ft-article-info > a > h2 {
+    /* Title */
+    font-size: 1.25em;
+    font-family: 'Fira Sans Condensed';
+    margin-bottom: .5rem;
+}
+
+.hth-ft-article-info > p {
+    /* Author */
+    font-size: 0.75em;
+}
+
+.temp-coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    font-size: 1.75em;
+    color: var(--green-2);
+}
+
+@media (max-width: 450px) {
+    .hth-ft-visual-wrapper {
+        width: 105px;
     }
 
-    .footer .text p, .footer .text .credit {
-        text-align: center;
+    .hth-ft-article-info > a > h2 {
+        font-size: 1em;
     }
 }
