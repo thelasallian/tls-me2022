@@ -5,7 +5,7 @@
 
 <div class="section-body">
     <!-- Pills -->
-    <div class="hth-pills nav-pills-wrapper d-flex justify-content-center">
+    <div class="hth-ft-pills nav-pills-wrapper d-flex justify-content-center">
         <ul class="nav nav-pills" id="myTab" role="tablist">
             <li class="nav-item me-2" role="presentation">
                 <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
@@ -26,11 +26,11 @@
         <!-- Executive Board -->
         <div class="tab-pane fade show active" id="executive-board-pane" role="tabpanel" aria-labelledby="executive-board-tab" tabindex="0">
             <?php foreach ($hth_eb_data as $eb_article): ?>
-                <div class="hth-article-card">
-                    <div class="hth-visual-wrapper">
-                        <img src="<?php echo $eb_article["visual"]; ?>" alt="" class="hth-visual">
+                <div class="hth-ft-article-card">
+                    <div class="hth-ft-visual-wrapper">
+                        <img src="<?php echo $eb_article["visual"]; ?>" alt="" class="hth-ft-visual">
                     </div>
-                    <div class="hth-article-info">
+                    <div class="hth-ft-article-info">
                         <span class="position-label"><?php echo $eb_article["position"]; ?></span>
                         <a href="<?php echo $eb_article["link"]; ?>" target="_blank">
                             <h2><?php echo $eb_article["title"]; ?></h2>
