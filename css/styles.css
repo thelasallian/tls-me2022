@@ -504,7 +504,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    min-height: 27.375rem;
+    /* min-height: 27.375rem; */
     max-width: 100%;
     margin-top: 1.875em;
 }
@@ -541,6 +541,7 @@ section {
     align-items: flex-start;
     width: 43.375em;
     margin: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 0.9em;
 }
 
 .footer .text p {
@@ -549,22 +550,21 @@ section {
 }
 
 .footer .text .about {
-    font-size: 1.125em;
     line-height: 1.375em;
     padding-bottom: 2em;
 }
 
 .footer .text .copyright {
     font-weight: bold;
-    font-size: 1em;
     padding-bottom: 1em;
 }
 
 .footer .text .credit {
     text-align: left;
     color: #D8E8CB;
-    font-size: 0.9375em;
+    font-size: 0.75em;
     line-height: 1.125em;
+    width: fit-content;
 }
 
 @media screen and (max-width: 800px) {
@@ -585,9 +585,15 @@ section {
     .footer .text {
         align-items: center;
         max-width: 90%;
-    }
-
-    .footer .text p, .footer .text .credit {
         text-align: center;
     }
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
