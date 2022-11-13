@@ -10,10 +10,10 @@
             <button class="nav-link active" id="pills-eb-tab" data-bs-toggle="pill" data-bs-target="#pills-eb" type="button" role="tab" aria-controls="pills-eb" aria-selected="true">EB</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-cla/cob/soe/gcoe-tab" data-bs-toggle="pill" data-bs-target="#pills-cla/cob/soe/gcoe" type="button" role="tab" aria-controls="pills-cla/cob/soe/gcoe" aria-selected="false">CLA, RVRCOB, SOE, GCOE</button>
+            <button class="nav-link" id="pills-cla-cob-soe-gcoe-tab" data-bs-toggle="pill" data-bs-target="#pills-cla-cob-soe-gcoe" type="button" role="tab" aria-controls="pills-cla-cob-soe-gcoe" aria-selected="false">CLA, RVRCOB, SOE, GCOE</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-cos/bagced/lcsg-tab" data-bs-toggle="pill" data-bs-target="#pills-cos/bagced/lcsg" role="tab" aria-controls="pills-cos/bagced/lcsg" aria-selected="false">COS, BAGCED, LCSG</button>
+            <button class="nav-link" id="pills-cos-bagced-lcsg-tab" data-bs-toggle="pill" data-bs-target="#pills-cos-bagced-lcsg" type="button" role="tab" aria-controls="pills-cos-bagced-lcsg" aria-selected="false">COS, BAGCED, LCSG</button>
         </li>
     </ul>
 
@@ -21,117 +21,106 @@
     <div class="tab-content" id="pills-tabContent">
         <!-- EB -->
         <div class="tab-pane fade show active" id="pills-eb" role="tabpanel" aria-labelledby="pills-eb-tab">
-            <div class="row row-cols-1 g-2">
+            <div class="row row-cols-1 row-cols-md-1 g-2">
                 <!-- PHP Loop to Render EB Cards -->
                 <?php
-                    $h2h_data = json_decode(file_get_contents('./json/hth-articles.json'), true);
+                    $hth_eb = json_decode(file_get_contents('./json/hth-eb-articles.json'), true);
 
-                    foreach($h2h_data as $item) { // foreach element in $arr
+                    foreach($hth_eb as $item) { // foreach element in $arr
                         $position = $item['position'];
                         $title = $item['title'];
                         $byline = $item['byline'];
+                        $visual = $item['visual'];
                         $link = $item['link'];
-                    }
-                    echo '<col>';
                 ?>
-                <div class="col">
-                    <a href="<?php echo $link; ?>" target="_blank">
-                        <div class="card border-0">
-                            <div class="row g-0">
-                                <div class="col-5 col-sm-4 col-lg-5 p-2">
-                                    <!-- later naren <img src="<?php echo $visual; ?> alt="" class="card-img"> -->
-                                </div>
-                                <div class="col-7 col-sm-8 col-lg-7 d-flex">
+                    <div class="col">
+                        <a href="<?php echo $link; ?>" target="_blank">
+                            <div class="card border-0">
+                                <div class="row g-0">
+                                    <div class="col-5 col-sm-4 col-lg-5 p-2">
+                                        <img src="<?php echo $visual; ?>" alt="" class="card-img">
+                                    </div>
                                     <div class="card-body d-flex flex-column justify-content-center">
-                                        <p class="card-tag"<?php echo $position; ?></p>
-                                        <h5 class="card-title"<?php echo $title; ?></h5>
-                                        <p class="card-text"<?php echo $byline; ?></p>
+                                        <p class="card-tag"><?php echo $position; ?></p>
+                                        <h5 class="card-title"><?php echo $title; ?></h5>
+                                        <p class="card-text"><?php echo $byline; ?></p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
-
-        <!-- CLA, RVRCOB, SOE, GCOE -->
-        <div class="tab-pane fade" id="pills-cla/cob/soe/gcoe" role="tabpanel" aria-labelledby="pills-cla/cob/soe/gcoe-tab">
-            <div class="row row-cols-1 g-2">
-                <!-- PHP Loops to Render CLA/COB/SOE/GCOE Cards -->
+        <!-- CLA, COB, SOE, GCOE -->
+        <div class="tab-pane fade" id="pills-cla-cob-soe-gcoe" role="tabpanel" aria-labelledby="pills-cla-cob-soe-gcoe-tab">
+        <div class="row row-cols-1 row-cols-md-1 g-2">
+                <!-- PHP Loop to Render CLA/COB/SOE/GCOE Cards -->
                 <?php
-                    $h2h_data = json_decode(file_get_contents('./json/hth-articles.json'), true);
+                    $hth_cla_cob_soe_gcoe = json_decode(file_get_contents('./json/hth-cla-cob-soe-gcoe-articles.json'), true);
 
-                    echo '<col>';
-                    foreach($h2h_data as $item) { // foreach element in $arr
-                        echo '<li>';
-                        echo $item["position"].'<br/>';
-                        echo $item["title"].'<br/>';
-                        echo $item["byline"].'<br/>';
-                        echo $item["link"].'<br/>';
-                    }
-                    echo '<col>';
+                    foreach($hth_cla_cob_soe_gcoe as $item) { // foreach element in $arr
+                        $position = $item['position'];
+                        $title = $item['title'];
+                        $byline = $item['byline'];
+                        $visual = $item['visual'];
+                        $link = $item['link'];
                 ?>
-                <div class="col">
-                    <a href="<?php echo $link; ?>" target="_blank">
-                        <div class="card border-0">
-                            <div class="row g-0">
-                                <div class="col-5 col-sm-4 col-lg-5 p-2">
-                                    <!-- later naren <img src="<?php echo $visual; ?> alt="" class="card-img"> -->
-                                </div>
-                                <div class="col-7 col-sm-8 col-lg-7 d-flex">
+                    <div class="col">
+                        <a href="<?php echo $link; ?>" target="_blank">
+                            <div class="card border-0">
+                                <div class="row g-0">
+                                    <div class="col-5 col-sm-4 col-lg-5 p-2">
+                                        <img src="<?php echo $visual; ?>" alt="" class="card-img">
+                                    </div>
                                     <div class="card-body d-flex flex-column justify-content-center">
-                                        <p class="card-tag"<?php echo $position; ?></p>
-                                        <h5 class="card-title"<?php echo $title; ?></h5>
-                                        <p class="card-text"<?php echo $byline; ?></p>
+                                        <p class="card-tag"><?php echo $position; ?></p>
+                                        <h5 class="card-title"><?php echo $title; ?></h5>
+                                        <p class="card-text"><?php echo $byline; ?></p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
-
         <!-- COS, BAGCED, LCSG -->
-        <div>
-        <div class="tab-pane fade" id="pills-cos/bacged/lcsg" role="tabpanel" aria-labelledby="pills-cos/bagced/lcsg-tab">
-            <div class="row row-cols-1 g-2">
-                <!-- PHP Loops to Render COS/BACGED/LCSG Cards -->
+        <div class="tab-pane fade" id="pills-cos-bagced-lcsg" role="tabpanel" aria-labelledby="pills-cos-bagced-lcsg-tab">
+        <div class="row row-cols-1 row-cols-md-1 g-2">
+                <!-- PHP Loop to Render EB Cards -->
                 <?php
-                    $h2h_data = json_decode(file_get_contents('./json/hth-articles.json'), true);
+                    $hth_cos_bagced_lcsg = json_decode(file_get_contents('./json/hth-cos-bagced-lcsg-articles.json'), true);
 
-                    echo '<col>';
-                    foreach($h2h_data as $item) { // foreach element in $arr
-                        echo '<li>';
-                        echo $item["position"].'<br/>';
-                        echo $item["title"].'<br/>';
-                        echo $item["byline"].'<br/>';
-                        echo $item["link"].'<br/>';
-                    }
-                    echo '<col>';
+                    foreach($hth_cos_bagced_lcsg as $item) { // foreach element in $arr
+                        $position = $item['position'];
+                        $title = $item['title'];
+                        $byline = $item['byline'];
+                        $visual = $item['visual'];
+                        $link = $item['link'];
                 ?>
-                <div class="col">
-                    <a href="<?php echo $link; ?>" target="_blank">
-                        <div class="card border-0">
-                            <div class="row g-0">
-                                <div class="col-5 col-sm-4 col-lg-5 p-2">
-                                    <!-- later naren <img src="<?php echo $visual; ?> alt="" class="card-img"> -->
-                                </div>
-                                <div class="col-7 col-sm-8 col-lg-7 d-flex">
+                    <div class="col">
+                        <a href="<?php echo $link; ?>" target="_blank">
+                            <div class="card border-0">
+                                <div class="row g-0">
+                                    <div class="col-5 col-sm-4 col-lg-5 p-2">
+                                        <img src="<?php echo $visual; ?>" alt="" class="card-img">
+                                    </div>
                                     <div class="card-body d-flex flex-column justify-content-center">
-                                        <p class="card-tag"<?php echo $position; ?></p>
-                                        <h5 class="card-title"<?php echo $title; ?></h5>
-                                        <p class="card-text"<?php echo $byline; ?></p>
+                                        <p class="card-tag"><?php echo $position; ?></p>
+                                        <h5 class="card-title"><?php echo $title; ?></h5>
+                                        <p class="card-text"><?php echo $byline; ?></p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </div>
+          
+</div>
 
     <?php /*
         // Convert JSON to associative array (true parameter)
