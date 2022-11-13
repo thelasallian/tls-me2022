@@ -42,7 +42,10 @@
         </div>
         <!-- College Presidents -->
         <div class="tab-pane fade" id="college-presidents-pane" role="tabpanel" aria-labelledby="college-presidents-tab" tabindex="0">
-            CP
+            <!-- Temporary -->
+            <div class="temp-coming-soon">
+                Coming Soon
+            </div>
         </div>
     </div>
 

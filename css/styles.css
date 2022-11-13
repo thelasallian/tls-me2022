@@ -663,3 +663,12 @@ section {
     font-size: 0.75em;
 }
 
+.temp-coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    font-size: 1.75em;
+    color: var(--green-2);
+}
+
