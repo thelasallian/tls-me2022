@@ -10,8 +10,11 @@
             <li class="nav-item me-2" role="presentation">
                 <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
             </li>
+            <li class="nav-item me-2" role="presentation">
+                <button class="nav-link" id="college-presidents-page1-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-page1-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">CLA, COB, SOE, GCOE</button>
+            </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="college-presidents-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">College Presidents</button>
+                <button class="nav-link" id="college-presidents-page2-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-page2-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">COS, BAGCED, LCSG</button>
             </li>
         </ul>
     </div>
@@ -41,22 +44,39 @@
                 </div>
             <?php endforeach; ?>
         </div>
-        <!-- College Presidents -->
-        <div class="tab-pane fade" id="college-presidents-pane" role="tabpanel" aria-labelledby="college-presidents-tab" tabindex="0">
-            <?php foreach ($hth_cp_data as $cp_article): ?>
+        <!-- CLA, COB, SOE, GCOE -->
+        <div class="tab-pane fade" id="college-presidents-page1-pane" role="tabpanel" aria-labelledby="college-presidents-page1-tab" tabindex="0">
+            <?php for ($i = 0; $i < 4; $i++): ?>
                 <div class="hth-ft-article-card">
                     <div class="hth-ft-visual-wrapper">
-                        <img src="<?php echo $cp_article["visual"]; ?>" alt="" class="hth-ft-visual">
+                        <img src="<?php echo $hth_cp_data[$i]["visual"]; ?>" alt="" class="hth-ft-visual">
                     </div>
                     <div class="hth-ft-article-info">
-                        <span class="position-label"><?php echo $cp_article["position"]; ?></span>
-                        <a href="<?php echo $cp_article["link"]; ?>" target="_blank">
-                            <h2><?php echo $cp_article["title"]; ?></h2>
+                        <span class="position-label"><?php echo $hth_cp_data[$i]["position"]; ?></span>
+                        <a href="<?php echo $hth_cp_data[$i]["link"]; ?>" target="_blank">
+                            <h2><?php echo $hth_cp_data[$i]["title"]; ?></h2>
                         </a>
-                        <p><?php echo $cp_article["byline"]; ?></p>
+                        <p><?php echo $hth_cp_data[$i]["byline"]; ?></p>
                     </div>
                 </div>
-            <?php endforeach; ?>
+            <?php endfor; ?>
+        </div>
+        <!-- COS, BAGCED, LCSG -->
+        <div class="tab-pane fade" id="college-presidents-page2-pane" role="tabpanel" aria-labelledby="college-presidents-page2-tab" tabindex="0">
+            <?php for ($i = 4; $i < count($hth_cp_data); $i++): ?>
+                <div class="hth-ft-article-card">
+                    <div class="hth-ft-visual-wrapper">
+                        <img src="<?php echo $hth_cp_data[$i]["visual"]; ?>" alt="" class="hth-ft-visual">
+                    </div>
+                    <div class="hth-ft-article-info">
+                        <span class="position-label"><?php echo $hth_cp_data[$i]["position"]; ?></span>
+                        <a href="<?php echo $hth_cp_data[$i]["link"]; ?>" target="_blank">
+                            <h2><?php echo $hth_cp_data[$i]["title"]; ?></h2>
+                        </a>
+                        <p><?php echo $hth_cp_data[$i]["byline"]; ?></p>
+                    </div>
+                </div>
+            <?php endfor; ?>
         </div>
     </div>
 
