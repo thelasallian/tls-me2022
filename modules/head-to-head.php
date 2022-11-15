@@ -6,14 +6,14 @@
 <div class="section-body">
     <!-- Pills -->
     <div class="hth-ft-pills nav-pills-wrapper d-flex justify-content-center">
-        <ul class="nav nav-pills" id="myTab" role="tablist">
-            <li class="nav-item me-2" role="presentation">
+        <ul class="nav nav-pills d-flex justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item mx-2 mt-2" role="presentation">
                 <button class="nav-link active" id="executive-board-tab" data-bs-toggle="tab" data-bs-target="#executive-board-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Executive Board</button>
             </li>
-            <li class="nav-item me-2" role="presentation">
+            <li class="nav-item mx-2 mt-2" role="presentation">
                 <button class="nav-link" id="college-presidents-page1-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-page1-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">CLA, COB, SOE, GCOE</button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item mx-2 mt-2" role="presentation">
                 <button class="nav-link" id="college-presidents-page2-tab" data-bs-toggle="tab" data-bs-target="#college-presidents-page2-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">COS, BAGCED, LCSG</button>
             </li>
         </ul>
