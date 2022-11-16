@@ -507,7 +507,7 @@ section {
     margin-right: 1rem;
 }
 
-.feature-visual-wrapper > .hth-visual {
+.feature-visual-wrapper > .feature-visual {
     width: 100%;
     border-radius: .25rem;
     border: 0.5px solid var(--green-1);
