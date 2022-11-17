@@ -6,7 +6,7 @@
 <div class="section-body">
     <!-- Import data -->
     <!-- https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/ -->
-    <?php $features_data = json_decode(file_get_contents('json/feature-articles.json'), true); ?>
+    <?php $features_data = json_decode(file_get_contents('https://raw.githubusercontent.com/ronnparcia/tls-me2022/main/json/feature-articles.json'), true); ?>
     <!-- Articles -->
     <?php foreach ($features_data as $feature_article): ?>
         <div class="hth-ft-article-card">
